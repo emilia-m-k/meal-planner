@@ -1,0 +1,30 @@
+$color-primary: "50, 168, 82";
+$color-primary-dark: "23, 87, 41";
+$color-accent: "232, 139, 39";
+
+$primary-text-color:rgba(0,0,0,0.87);
+$secondary-text-color:rgba(0,0,0,0.54);
+
+.page-content{
+  padding: 16px;
+}
+
+.recipe-cards{
+  display:flex;
+  flex-flow: column nowrap;
+}
+
+.flex-row{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-column{
+  display:flex;
+  flex-direction: column;
+}
+
+
+@import "Components";
+@import "RecipeCard";
+@import "Recipe";

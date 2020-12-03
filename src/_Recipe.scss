@@ -1,0 +1,20 @@
+.recipe{
+  .recipe__thumbnail{
+    display:flex;
+    width:150px;
+    height:150px;
+  }
+  .recipe__instructions{
+    display:flex;
+    margin-top:24px;
+  }
+  .recipe__servings{
+    display:flex;
+    color:$secondary-text-color;
+    font-size:14px;
+    margin-right:16px;
+  }
+  .recipe__type{
+    text-transform: uppercase;
+  }
+}
